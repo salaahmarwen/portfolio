@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../img/ai-generated-8578464.jpg') no-repeat center center fixed; /* Chemin vers votre image */
+    background-size: cover; /* Couvrir toute la page avec l'image */
+    color: white; /* Couleur du texte par défaut pour une meilleure lisibilité */
+}
+
+header {
+    background-color: rgba(2, 2, 2, 0.8); /* Couleur de fond avec opacité */
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 20px; /* Ajouter une marge à gauche */
+}
+
+.logo img {
+    height: 150px; /* Ajuster la taille du logo */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li {
+    margin:  25px;
+    margin-top: 40px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #f50303;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+nav ul li a:hover {
+    color: #f50303;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Ajouter un fond semi-transparent pour améliorer la lisibilité */
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.home-content {
+    display: flex;
+    align-items: center;
+    max-width: 900px; /* Largeur maximale du conteneur */
+    background: rgba(0, 0, 0, 0.7); /* Fond semi-transparent pour le contenu */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Ombre légère pour un effet flottant */
+    color: white;
+    animation: zoomIn 1s ease-out; /* Appliquer l'animation */
+}
+
+
+
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.social-icons i {
+    margin-right: 8px; /* Espace entre l'icône et le texte */
+}
+
+.social-icons a:hover {
+    color: #ff0000; /* Couleur au survol */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+    #home {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh; /* Hauteur de la vue */
+        background: rgba(0, 0, 0, 0.5); /* Fond semi-transparent pour la section */
+    }
+
+    
+
+    .home-image {
+        flex: 1; /* Prend une partie de l'espace disponible */
+        display: flex;
+        justify-content: center; /* Centrer l'image horizontalement */
+        margin-right: 20px; /* Espace entre l'image et le texte */
+    }
+
+    .home-image img {
+        max-width: 150px; /* Largeur maximale de l'image */
+        height: auto; /* Conserver les proportions de l'image */
+        border-radius: 50%; /* Bordure ronde pour l'image */
+    }
+
+    .home-text {
+        flex: 2; /* Prend une partie plus grande de l'espace disponible */
+    }
+
+    .home-text p {
+        font-size: 1.2em; /* Taille du texte */
+        line-height: 1.6; /* Hauteur de ligne pour une meilleure lisibilité */
+        text-align: left; /* Alignement du texte à gauche */
+        margin: 0; /* Supprimer la marge par défaut */
+    }
+
+    .home-text h1 {
+        font-size: 2.5em; /* Taille du titre */
+        font-weight: bold; /* Texte en gras */
+        margin: 10px 0; /* Marges autour du titre */
+    }
+
+    .highlighted-name {
+        color: #3c00ff; /* Couleur de surlignage pour le nom */
+        font-weight: bold; /* Mettre en gras le nom */
+        font-size: 2em; /* Augmenter la taille de la police */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajouter une ombre portée */
+    }
+    
+
+    .name  {
+        color: #ffb300; /* Utiliser la même couleur que .highlighted-name */
+        font-weight: bold; /* Mettre en gras le nom */
+        font-size: 2em; /* Augmenter la taille de la police */
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Ajouter une ombre portée */
+    }
+    
